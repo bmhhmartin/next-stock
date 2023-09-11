@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import { getAllProducts } from '@/libs/getAllProducts';
 import Image from 'next/image';
-import SellButton from './sellButton';
+import SellButton from './SellButton';
 import Link from 'next/link';
 
 const Page = async () => {
