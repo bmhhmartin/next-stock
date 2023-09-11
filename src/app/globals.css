@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-style {
+  @apply px-3 py-2 rounded-lg text-white bg-red-700 hover:bg-green-800 hover:text-white mb-2;
+}
+
+.dark {
+  background-color: rgb(33, 33, 47);
+  color: white;
+}
+
+.light{
+  background: #efefef;
+  color: black;
+}
